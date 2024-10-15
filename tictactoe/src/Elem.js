@@ -1,7 +1,6 @@
 export default function Elem(props){
     function katt(){
-        console.log("elem: " + props.jel);
-        console.log("elem: " + props.index);
+        props.fv(props.index);
     }
 
     return(
